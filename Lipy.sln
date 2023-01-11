@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lipy", "Lipy\Lipy.csproj", "{FE90A46D-01DB-4552-B897-56403781AA5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lipy", "Lipy\Lipy.csproj", "{FE90A46D-01DB-4552-B897-56403781AA5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lipy.Admin", "Lipy.Admin\Lipy.Admin.csproj", "{3656C9F2-98CD-4028-B72E-CA67ABFD4726}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lipy.Admin", "Lipy.Admin\Lipy.Admin.csproj", "{3656C9F2-98CD-4028-B72E-CA67ABFD4726}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0CFF7926-032F-4029-B8D9-8D0D19E65BCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lipy.HeaderApi", "Services\Lipy.HeaderApi\Lipy.HeaderApi.csproj", "{20AC92E3-8E18-49CC-8588-E26B0999A17D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lipy.HeaderApi", "Services\Lipy.HeaderApi\Lipy.HeaderApi.csproj", "{20AC92E3-8E18-49CC-8588-E26B0999A17D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backup", "Backup", "{818FF229-64EF-48EF-93D2-3BCC30FBE0E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lipy.Identity", "Services\Lipy.Identity\Lipy.Identity\Lipy.Identity.csproj", "{1E1D9551-7E1B-475E-A465-602DED7A790D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +33,17 @@ Global
 		{20AC92E3-8E18-49CC-8588-E26B0999A17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20AC92E3-8E18-49CC-8588-E26B0999A17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20AC92E3-8E18-49CC-8588-E26B0999A17D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E1D9551-7E1B-475E-A465-602DED7A790D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E1D9551-7E1B-475E-A465-602DED7A790D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E1D9551-7E1B-475E-A465-602DED7A790D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E1D9551-7E1B-475E-A465-602DED7A790D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{20AC92E3-8E18-49CC-8588-E26B0999A17D} = {0CFF7926-032F-4029-B8D9-8D0D19E65BCD}
+		{1E1D9551-7E1B-475E-A465-602DED7A790D} = {0CFF7926-032F-4029-B8D9-8D0D19E65BCD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9AAE3ACD-ACCC-4694-BAA6-E25F2E5A298B}
